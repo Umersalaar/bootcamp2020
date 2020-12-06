@@ -37,5 +37,5 @@ jobs:
       - name: installing surge
         run: npm install -g surge
       - name: deploying using surge
-        run: surge./ sahiwal.surge.sh --token ${{ secrets.SURGE_TOKEN}}
+        run: surge./ sahiwal.surge.sh --token 0f7fcc09cb9900078ad6348b29ff9173
         
